@@ -4,13 +4,13 @@ This repository contains an implementation of **CycleGAN** for
 translating Synthetic Aperture Radar (SAR) images into optical
 (satellite-like) images.\
 The project explores how unpaired image-to-image translation can help
-visualize SAR data in a more interpretable way.
+visualise SAR data in a more interpretable way.
 
 ------------------------------------------------------------------------
 
 ## 📌 Features
 
--   CycleGAN implementation with PyTorch.\
+-   CycleGAN implementation with PyTorch.
 -   Training and experiment tracking using **MLflow** (integrated with
     **DAGsHub**).\
 -   Metrics logging (Cycle Consistency Loss, Identity Loss,
@@ -48,10 +48,8 @@ cd SAR-to-Optical-CycleGAN
 Make sure you have **Python 3.8+**, PyTorch, and MLflow installed along
 with standard libraries like matplotlib, numpy, and pillow.
 
-### 3. Dataset
+### 3. Dataset Used
 
-You can use publicly available SAR-to-Optical datasets such as: -
-QXSar-to-Optical dataset\
 - SAR2OPT dataset
 
 Update dataset paths in the notebook (`MLFlow_CycleGAN.ipynb`) before
@@ -75,7 +73,7 @@ To view experiments:
 
 1.  Log in to [DAGsHub](https://dagshub.com).\
 2.  Navigate to your project → **Experiments** tab.\
-3.  Runs, metrics, and artifacts are synced automatically.
+3.  Runs, metrics, and artefacts are synced automatically.
 
 If you want to run MLflow locally as well, use:
 
