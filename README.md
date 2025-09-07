@@ -91,19 +91,19 @@ Then open <http://localhost:5000> in your browser.
 
 ### Cycle Consistency Loss
 
-![Cycle Loss](Result/cycle_loss.png)
+![Cycle Loss](results/cycle_loss.png)
 
 ### Identity Loss
 
-![Identity Loss](Result/identity_loss.png)
+![Identity Loss](results/identity_loss.png)
 
 ### Discriminator Loss
 
-![Discriminator Loss](Result/train_d_loss.png)
+![Discriminator Loss](results/train_d_loss.png)
 
 ### Validation Identity Loss
 
-![Validation Identity Loss](Result/val_identity_losses.png)
+![Validation Identity Loss](results/val_identity_losses.png)
 
 ------------------------------------------------------------------------
 
@@ -112,23 +112,7 @@ Then open <http://localhost:5000> in your browser.
 Below are some sample outputs after training (SAR → Generated Optical vs
 Real Optical):
 
-![Sample Results](Result/Result.png)
-
-------------------------------------------------------------------------
-
-## 📟 MLflow Experiment Tracking
-
-We used **MLflow** integrated with **DAGsHub** to track training runs,
-losses, and hyperparameters.\
-Here's how the experiment tracking looks:
-
-### MLflow Run Overview
-
-![MLflow Runs](results/mlflow_runs.png)
-
-### MLflow Metrics Visualization
-
-![MLflow Metrics](results/mlflow_metrics.png)
+![Sample Results](results/Result.png)
 
 ------------------------------------------------------------------------
 
