@@ -91,19 +91,19 @@ Then open <http://localhost:5000> in your browser.
 
 ### Cycle Consistency Loss
 
-![Cycle Loss](results/cycle_loss.png)
+![Cycle Loss](Results/cycle_loss.png)
 
 ### Identity Loss
 
-![Identity Loss](results/identity_loss.png)
+![Identity Loss](Results/identity_loss.png)
 
 ### Discriminator Loss
 
-![Discriminator Loss](results/train_d_loss.png)
+![Discriminator Loss](Results/train_d_loss.png)
 
 ### Validation Identity Loss
 
-![Validation Identity Loss](results/val_identity_losses.png)
+![Validation Identity Loss](Results/val_identity_losses.png)
 
 ------------------------------------------------------------------------
 
@@ -112,7 +112,7 @@ Then open <http://localhost:5000> in your browser.
 Below are some sample outputs after training (SAR → Generated Optical vs
 Real Optical):
 
-![Sample Results](results/Result.png)
+![Sample Results](Results/Result.png)
 
 ------------------------------------------------------------------------
 
