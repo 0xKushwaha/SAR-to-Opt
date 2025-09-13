@@ -50,7 +50,7 @@ with standard libraries like matplotlib, numpy, and pillow.
 
 ### 3. Dataset Used
 
-- SAR2OPT dataset
+- [SAR2OPT dataset](https://github.com/MarsZhaoYT/SAR2Opt-Heterogeneous-Dataset).
 
 Update dataset paths in the notebook (`MLFlow_CycleGAN.ipynb`) before
 training.
@@ -68,11 +68,11 @@ All metrics will be tracked automatically with **MLflow**, logged to
 
 ## 📟 MLflow + DAGsHub Integration
 
-This project uses **DAGsHub** as the MLflow tracking server.\
+This project uses **DAGsHub** as the MLflow tracking server.
 To view experiments:
 
-1.  Log in to [DAGsHub](https://dagshub.com).\
-2.  Navigate to your project → **Experiments** tab.\
+1.  Log in to [DAGsHub](https://dagshub.com).
+2.  Navigate to your project → **Experiments** tab.
 3.  Runs, metrics, and artefacts are synced automatically.
 
 If you want to run MLflow locally as well, use:
@@ -116,25 +116,10 @@ Real Optical):
 
 ## 📈 Observations
 
--   Loss functions show stable convergence over training.\
+-   Loss functions show stable convergence over training.
 -   Generated optical images preserve spatial structures from SAR
-    inputs.\
+    inputs.
 -   Model performance improves with higher resolution inputs (512x512).
-
-------------------------------------------------------------------------
-
-## 🔮 Future Work
-
--   Fine-tuning with larger datasets.\
--   Incorporating perceptual loss for better visual realism.\
--   Hosting pre-trained weights for easy inference.
-
-------------------------------------------------------------------------
-
-## 🤝 Contributing
-
-Pull requests are welcome! If you'd like to add features, improve
-training, or test on new datasets, feel free to open an issue.
 
 ------------------------------------------------------------------------
 
