@@ -39,7 +39,7 @@ visualise SAR data in a more interpretable way.
 ### 1. Clone the repo
 
 ``` bash
-git clone https://github.com/<your-username>/SAR-to-Optical-CycleGAN.git
+git clone https://github.com/0xKushwaha/SAR-to-Optical-CycleGAN.git
 cd SAR-to-Optical-CycleGAN
 ```
 
