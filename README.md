@@ -12,10 +12,10 @@ visualise SAR data in a more interpretable way.
 
 -   CycleGAN implementation with PyTorch.
 -   Training and experiment tracking using **MLflow** (integrated with
-    **DAGsHub**).\
+    **DAGsHub**).
 -   Metrics logging (Cycle Consistency Loss, Identity Loss,
-    Discriminator Loss).\
--   Example SAR → Optical translation results.\
+    Discriminator Loss).
+-   Example SAR → Optical translation results.
 -   Support for custom SAR/Optical datasets.
 
 ------------------------------------------------------------------------
